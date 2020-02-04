@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Flexbox Practice</title>
+  
+  <style>
+    #my-flexbox {
+      background-color: aqua;
+      display: flex;
+      flex-direction: column
+    }
+    .flexbox-items {
+      background-color:blueviolet;
+      margin: 20px;
+    }
+    #special-item {
+      flex-shrink: 2;
+    }
+      #last-item {
+        flex-grow: 3;
+      }
+
+  </style>
+</head>
+
+<body>
+
+<div id="my-flexbox">
+  <div class="flexbox-items"></div>
+  <p>"Hello there, how are you!" 1</p>
+  <div id="special-item" class="flexbox-items"></div>
+  <p>"Hello there, how are you!" 2</p>
+  <div id="last-item" class="flexbox-items"></div>
+  <p>"Hello there, how are you!" 3</p>
+  <div class="flexbox-items"></div>
+  <p>"Hello there, how are you!" 3</p>
+
+</div>
+  
+</body>
+</html>
