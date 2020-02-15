@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;
+}
+
+div#flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content:
+
+
+}
+figure, figure>img {
+    width: 300px;
+}
+#flex-gallery > figure {
+    background-color: white;
+    padding: 10px;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+    
+figure {
+    width: 325px;
+}
+figure >img {
+    border: blue solid 10px;
+}
+figcaption {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+    line-height: 30px;
+    color: darkred;
+    font-weight: 700;
+    font-style: italic;
+    font-family:'Times New Roman';
+}

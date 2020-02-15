@@ -1,0 +1,124 @@
+﻿body, 
+
+
+For the body portion purple has been chosen in order to match the appropriate color pallet and maximize aesthetic value to the client while following appropriate design principles.  
+
+
+
+
+
+
+
+
+#7c4dff 
+
+
+
+
+
+
+
+
+header, 
+
+
+For the header portion teal  has been chosen in order to further combine the color pallet and maximize pigment combination  while following appropriate design principles.  
+
+
+#26a69a 
+
+
+link text 
+
+
+A Modern sleek and clean font has been chosen for the content and link structure of website.
+
+
+<link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+font-family: 'Tomorrow', sans-serif;
+
+
+
+
+
+
+background color.
+For the background portion white has been chosen in order to preserve pigment combination as well to finalize the design process in its purest form.
+
+
+#ffffff 
+
+
+
+
+
+
+Projects
+My current project entails further expanding my knowledge base within the web development industry and universe. Currently looking to partake in an internship or similar experience to further solidify academic development and yield future success in this field.
+
+
+
+
+
+
+About Me
+Experienced Manager of Sales with a demonstrated history of working in the automotive and retail industry. Skilled in Microsoft Word, Retail, Sales, Cashiering, and Spanish. Strong sales professional graduating from Skyline College.
+What being an AVT is like : Im Responsible for monitoring the vehicle's behavior while in autonomous mode in this role safety is of paramount concern and operators must be ready to engage to drive manually whenever any safety issue becomes apparent. Normal operations consisted of compiling ride reports with feedback for engineers and to ensure readiness of vehicles, and equipment and provide support through variety of roles both in and out of vehicles.
+
+
+
+
+
+
+Contact me
+
+
+https://www.linkedin.com/in/johnnasthern-baca-hernandez-b649a4b8
+
+
+
+
+
+
+
+
+
+
+Portfolio Examples Links and Feedback:
+
+
+
+
+Portfolio 1
+  
+https://www.jessica-caldwell.com/
+
+
+
+
+Author :Jessica Caldwell
+
+
+Feedback: 
+
+
+
+Simple and elegant design with eye catching minimalist design. Oversized links are stylish and  allow the  user to easily navigate through the website interface and lays out links in a way that most users will be able to comprehend.
+
+
+
+
+Portfolio 2
+  
+https://neuarmy.com/
+
+
+
+
+Author :Neuarmy Corporation
+
+
+Feedback: 
+
+
+Design synesthesia along with excellent pallet and pigment combination. Large design maximizes appreciation for the artistic elements incorporated within the front end layout of this interface.
