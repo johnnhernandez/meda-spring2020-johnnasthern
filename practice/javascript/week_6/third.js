@@ -56,5 +56,32 @@ var roundedRandomNumber = Math.floor(someNumber);
 // or use the existing variable:
 // someNumber = Math.floor(someNumber);
 
+
+
+
+
+
+
 // Print random number.
 console.log(roundedRandomNumber);
+
+// Declaring multiple variables.
+var variableA, variableB;
+
+// Declaring multiple variables as well as initializing values
+var variable1 = "10", variable2 = "100",variable3 = "true";
+
+console.log(variable2);
+
+// Calling before Defining
+console.log(howAreYou);
+var howAreYou = "Hello";
+// You will get undefined
+
+
+// We reassign the howAreYou value to 100, the we call howAreYou for it's value and assign that to coolVariable
+var coolVariable = howAreYou = 100;
+
+console.log(coolVariable);
+
+
