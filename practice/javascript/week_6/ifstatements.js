@@ -51,10 +51,92 @@ if (isCranky) {
 
  // These do not allow type coercion === >== <== !==
 
-
+var sayHello = false;
 
  // If and Else parts
- if (true) {
-     print();
-    
+ if (sayHello) {
+     console.log("test");
+ } else{
+     console.log("goodbye");
  }
+ 
+
+ //Truthy and Falsey values.
+
+ //If a variable is holding any of the following it will become a false boolean:
+ /*
+ FALSEYS
+ undefined
+null
+0
+""
+NaN
+
+LIST OF MOST COMMON TRUTHYS
+ANYTHING ELSE
+"0"
+-1
+
+*/
+var checkIfTrue = "";
+
+if (checkIfTrue) {
+    console.log("The " + checkIfTrue + " value is truthy");
+} else {
+    console.log("The " + checkIfTrue + " value is falsy.");
+}
+
+// Logical Operators: &&, || ,!
+/*
+&& = both sides must be true.
+|| = either side must be true.
+! = flip the current boolean. (if true, it becomes false, and if false, it becomes true).
+*/
+
+var firstBool = true;
+var secondBool = false;
+
+if(firstBool && secondBool) {
+    console.log("This has runned because the condition is true");
+}
+
+if (firstBool ||secondBool) {
+    // do something;
+}
+
+
+// If Else Section, allows you to test something and run other code , if the first question was false.
+
+var level= "twelve";
+
+// && says both sides must be true to be a child.
+if (level > 0 && level <= 17) {
+    console.log("You are child ");
+    // if not a child, but below 0 then you are not born yet.
+} else if (level <0){
+    console.log("You are an adult or not born yet");
+    // if not a child, and not born yet, but between level 18 and 112, then you are an adult.
+} else if (level >= 18 && level < 112) {
+    console.log("You are an adult");
+    // if you are not any of the previous, then you are dead.
+} else {
+    console.log("Thank you for living, come again next time");
+}
+
+
+/*
+if always comes first.
+else if must come after if. else ifs are optional.
+else must come last. else are optional. only one else per if statement.
+*/
+
+
+
+// Multiple Logical Operators
+
+// All && go first, then ||
+// if equal, then left to right
+
+if (true && false || true || false && true) {
+    
+}
