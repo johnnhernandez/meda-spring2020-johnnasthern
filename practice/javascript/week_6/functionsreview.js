@@ -1,6 +1,6 @@
 // Defining a Function
-function myFunction(message, times){
-console.log(message);
+function myFunction(message, times) {
+    console.log(message);
 }
 
 // Calling a Function

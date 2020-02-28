@@ -1,6 +1,6 @@
 // Intro to Functions
 
-// Example of functions we have used so far
+// Example of functions we have used so far.
 console.log();
 
 Math.round();
@@ -11,76 +11,76 @@ Math.random();
 var currentTime = Date.now();
 console.log(currentTime);
 
-// A function that belongs to a class ("library") is called a "Method"
-// A variable that belongs to a class ("library") is called a "Porperty"
+// A function that belongs to a class ("library") is called a "Method".
+// A variable that belongs to a class ("library") is called a "Property".
 
 
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
 
-//Syntax Structure of a Function definition.
+// The Syntax Structure of a Function definition.
 function nameOfFunction() {
-console.log("Hello");
-console.log("Hello");
-console.log("Hello");
-    
+    console.log("Hello");
+    console.log("Hello");
+    console.log("Hello");
 }
 
 
 nameOfFunction();
 nameOfFunction();
 
-/*
-Similar toCSS Ruesets
 
-selector{
+
+/*
+Similar to CSS Rulesets
+
+selector {
     property: value;
     property: value;
 }
 
 */
 
-function projectAlfa(){
-console.log("To this day!");
-console.log("Wednesday");
-console.log("21");
+
+nameOfFunction();
+
+
+
+
+
+
+
+
+
+
+
+function dataTypePrinter() {
+    console.log(102903);
+    console.log("Hello World!");
+    console.log(false);   
 }
 
-projectAlfa();
-projectAlfa();
+
+
+dataTypePrinter();
 
 
 
 
 
+// Arguments and Parameters
 
-
-
-
-
-
-
-
-
-
-
-// Arguements and Parameters.
-
-//"Hello" is the arguement
-console.log("hello",100,true);
+// "hello" is the argument
+console.log("hello", 100, true);
 
 // text is the parameter (variable) that will accept any data that is given to this function.
-function poundCake(text1, text2) {
-    console.log(text1);
-    console.log(text2);
-    
+function takeDataIn(text1, text2) {
+
+    console.log(text1, text2);
+
 }
 
 
-poundCake("How are you doing?","hi");
-poundCake("Im Hungry", 1000);
-poundCake("hi", 1+1);
+takeDataIn("How are you doing?", "Jesser");
+takeDataIn("Goodbye!", 1000);
 
 
 
@@ -93,15 +93,8 @@ function adder(number2, number1) {
 
     var sum = number1 + number2;
 
-    console.log("the sum of " + number1 + " and " + number2 + " is " + sum)
-    
+    console.log( "The sum of" + number1 + " and " + number2 + " is " + sum );
+
 }
 
-
-
 adder(4000, 19);
-adder(2500, 24);
-
-
-
-
