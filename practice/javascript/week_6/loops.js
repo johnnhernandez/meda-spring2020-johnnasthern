@@ -1,27 +1,28 @@
 console.log("Testing");
 
-var counter = 1;
+// While loop "while (condition) {code}"
 
-
-// A loop needs a computer so we can track how many times it hasa loop
+// A loop needs a counter so we can track how many times it has loop.
 var counter = 0;
 
 // If counter is less than 10, then...
-while (counter<=10) {
-    // console.log(number);
+while (counter < 10) {
+    //console.log(number);
 
-    //...console.log hello, and add a 1 to the counter.
-    console.log(counter)
-    console.log("hello")
+    // ...console.log hello, and add a 1 to the counter.
+    console.log("hello");
     counter = counter + 1;
-
 };
 
-// Do while loop " do {}  while ()";
+
+// Do While loop " do {} while ();"
 
 var counter2 = 0;
 
+// Do the code first...
 do {
     console.log("goodbye");
     counter2 = counter2 + 1;
+// And then check to see if we do it again.
 } while (false);
+

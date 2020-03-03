@@ -39,34 +39,33 @@ if (isCranky) {
 }
 
 
- var test = "1000";
+var test = "1000";
 
- if( test === 1000) {
-     console.log("test!");
- }
+if ( test === 1000 ) {
+    console.log("test!");
+}
 
 
- // Type coercion: Forces a datatype to be another datatype.
- // The follow allow type coercion: == >= <= !=
+// Type coercion: Forces a datatype to be another datatype.
+// The follow allow type coercion: == >= <= !=
 
- // These do not allow type coercion === >== <== !==
+// These do not allow type coercion: === >== <== !==
 
-var sayHello = false;
+var sayHello;
 
- // If and Else parts
- if (sayHello) {
-     console.log("test");
- } else{
-     console.log("goodbye");
- }
- 
+// If and Else parts
+if (sayHello) {
+    console.log("hello");
+} else {
+    console.log("goodbye");
+}
 
- //Truthy and Falsey values.
+// Truthy and Falsy values.
 
- //If a variable is holding any of the following it will become a false boolean:
- /*
- FALSEYS
- undefined
+//If a variable is holding any of the following it will become a false boolean:
+/*
+LIST OF MOST COMMON FALSYS
+undefined
 null
 0
 ""
@@ -78,54 +77,55 @@ ANYTHING ELSE
 -1
 
 */
+
 var checkIfTrue = "";
 
 if (checkIfTrue) {
-    console.log("The " + checkIfTrue + " value is truthy");
+    console.log("The '" + checkIfTrue + "' value is truthy.");
 } else {
-    console.log("The " + checkIfTrue + " value is falsy.");
+    console.log("The '" + checkIfTrue + "' value is falsy.");
 }
 
-// Logical Operators: &&, || ,!
+// Logical Operators: &&, ||, !
 /*
 && = both sides must be true.
 || = either side must be true.
-! = flip the current boolean. (if true, it becomes false, and if false, it becomes true).
+! = opposite of the current boolean. (if true, it becomes false, and if false, it becomes true).
 */
 
 var firstBool = true;
 var secondBool = false;
 
-if(firstBool && secondBool) {
-    console.log("This has runned because the condition is true");
+if ( !firstBool ) {
+    console.log("This has runned because the condition is true.");
 }
 
-if (firstBool ||secondBool) {
+if (firstBool || secondBool) {
     // do something;
 }
 
 
-// If Else Section, allows you to test something and run other code , if the first question was false.
+// If Else Section, allows you to test something and run other code, if the first question was false.
 
-var level= "twelve";
+var level = "twelve";
 
 // && says both sides must be true to be a child.
-if (level > 0 && level <= 17) {
-    console.log("You are child ");
-    // if not a child, but below 0 then you are not born yet.
-} else if (level <0){
-    console.log("You are an adult or not born yet");
-    // if not a child, and not born yet, but between level 18 and 112, then you are an adult.
+if (level > 0 && level < 18) {
+    console.log("You are child");
+// if not a child, but below 0 then you are not born yet.
+} else if (level < 0) {
+    console.log("You are not born yet");
+// if not a child, and not born yet, but between level 18 and 112, then you are an adult.
 } else if (level >= 18 && level < 112) {
     console.log("You are an adult");
     // if you are not any of the previous, then you are dead.
 } else {
-    console.log("Thank you for living, come again next time");
+    console.log("Thank you for living, come again next time.");
 }
 
 
 /*
-if always comes first.
+if always comes first. only one if per if statement.
 else if must come after if. else ifs are optional.
 else must come last. else are optional. only one else per if statement.
 */
@@ -135,8 +135,8 @@ else must come last. else are optional. only one else per if statement.
 // Multiple Logical Operators
 
 // All && go first, then ||
-// if equal, then left to right
+// if equal, then left to right.
 
 if (true && false || true || false && true) {
-    
+
 }
